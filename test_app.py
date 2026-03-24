@@ -5,3 +5,4 @@ def test_index():
     response = tester.get('/') 
     assert response.status_code == 200 
     assert b"Hello, World!" in response.data 
+    # On vérifie que le serveur répond 200 (OK)
